@@ -27,6 +27,12 @@ def create_app(database, evidence):
     def view():
         return (ROOT/"index.html").read_text()
 
+    @app.get("/historical-benchmark.pptx")
+    def historical_benchmark():
+        return Response((ROOT/"public-data/caliber-benchmark.pptx").read_bytes(),
+                        media_type="application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                        headers={"Content-Disposition": 'attachment; filename="caliber-benchmark.pptx"'})
+
     @app.get("/topics")
     def rows():
         with sqlite3.connect(database) as con: choices = dict(con.execute("SELECT topic,chosen FROM selection"))

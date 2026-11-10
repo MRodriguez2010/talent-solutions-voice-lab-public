@@ -8,3 +8,7 @@ python lab.py
 ```
 
 Open **http://127.0.0.1:8091**. The public edition uses a fictional survey summary. Its workbench, input schema and presentation layout are new public substitutes for the private client tooling. [Related repositories](https://github.com/search?q=user%3AMRodriguez2010+topic%3Aemployee-sentiment-analysis&type=repositories)
+
+## Historical source examples
+
+[Download the historical Caliber Collision benchmark](public-data/caliber-benchmark.pptx) or [inspect the underlying values](public-data/caliber-ratings.csv). The February 5, 2026 slide presents archived five-point ratings. The interactive fictional demo above uses favorable answer counts, a different measure.

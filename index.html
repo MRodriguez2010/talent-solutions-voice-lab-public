@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Voice Lab | Employee Sentiment Analysis</title>
 <style>body{font:17px system-ui;color:#223740;background:#f6f6f2;max-width:55rem;margin:3rem auto;padding:1rem}article{padding:1rem;border-top:1px solid #acb9b8}button{font:inherit;padding:.4rem .8rem}a{color:#215548}</style>
 <h1>Employee Sentiment Analysis</h1><p>Review the fictional Alder Works topic comparisons and choose which evidence belongs in the brief.</p>
-<main></main><p id="status" role="status"></p><a id="export" href="/brief.pptx">Download reviewed slides</a>
+<p><a href="/historical-benchmark.pptx">Download the Caliber Collision historical benchmark (February 2026)</a></p><main></main><p id="status" role="status"></p><a id="export" href="/brief.pptx">Download reviewed slides</a>
 <script>
 async function render(){
  const rows=await(await fetch('/topics')).json(), main=document.querySelector('main');main.replaceChildren();
