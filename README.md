@@ -1,5 +1,7 @@
 # Voice Lab · Employee Sentiment Analysis
 
+**Employee Sentiment Analysis project family:** [Project guide](https://github.com/MRodriguez2010/Revelio/blob/main/docs/employee-sentiment-analysis-projects.md) · [Revelio interactive demo](https://github.com/MRodriguez2010/Revelio)
+
 A local analyst workbench for reviewing topic-level evidence and building a slide brief. Inspect the numerator and denominator for each comparison, approve the topics to include, and download an editable presentation. Approval choices persist locally in SQLite. Each exported slide corresponds to an approved topic.
 
 ```sh
